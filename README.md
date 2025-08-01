@@ -45,7 +45,7 @@ This project requires three main components to be running simultaneously: the Py
 
 Step 1: Start the Backend Server
 Open a terminal, navigate to the backend folder, and run the following command:
-python -m uvicorn main:app --reload
+   ## python -m uvicorn main:app --reload
 Keep this terminal running.
 
 Step 2: Start ngrok
@@ -54,7 +54,7 @@ ngrok exposes your local server to the internet so Twilio can connect to it.
 Open a new, separate terminal. On Windows, you must run it as an Administrator.
 
 Run the following command:
-ngrok http 8000
+##   ngrok http 8000
 
 ngrok will display a Forwarding URL (e.g., https://random-string.ngrok-free.app). Copy this https URL.
 
